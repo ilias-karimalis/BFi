@@ -57,7 +57,7 @@ void interpret (char* arr) {
 
 int main(int argc, char** argv) {
     if (argc != 2) {
-        puts("Usage: brainfuck <sourcecode>");
+        puts("Usage: BFi <sourcecode>");
         exit(1);
     }
     FILE* fp = fopen(argv[1], "r");
